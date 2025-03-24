@@ -6,6 +6,9 @@
 */
 
 function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
+    hobbyOne = process.argv[4];
+    hobbyTwo = process.argv[5];
+    hobbyThree = process.argv[6];
     return [hobbyOne, hobbyTwo, hobbyThree];
 }
 
